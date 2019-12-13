@@ -1,0 +1,10 @@
+from msg.message import MessageUsers
+obj = MessageUsers()
+obj.add_user('Justin', 123.45)
+obj.add_user('John', 94.23)
+obj.add_user('Emilee', 124.32)
+obj.add_user('Jim', 323.4)
+obj.add_user('Ron', 23)
+obj.add_user('Sandra', 322.122)
+obj.add_user('Whitney', 99.99)
+obj.make_messages()
